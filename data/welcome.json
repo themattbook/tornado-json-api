@@ -1,0 +1,15 @@
+{
+  "Name": "Tornado Archive JSON API",
+  "Version": "1.0.0",
+  "Author": "Matthew Sweet <sweet@openteknik.com",
+  "Endpoints": {
+    "1950's": "/api/v1/50",
+    "1960's": "/api/v1/60",
+    "1970's": "/api/v1/70",
+    "1980's": "/api/v1/80",
+    "1990's": "/api/v1/90",
+    "2000-2004": "/api/v1/00",
+    "2005-2007": "/api/v1/05"
+  },
+  "Message": "When querying the API, append the correct data to the endpoint. The data is broken up by decade until 2000, when it goes in 4 and 2 year archives. The API reads directly from JSON files, so an incorrect format will return 404."
+}
